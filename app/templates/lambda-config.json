@@ -1,0 +1,9 @@
+{
+  "region": "<%= aws.region %>",
+  "handler": "index.handler",
+  "role": "<%= aws.role %>",
+  "functionName": "<%= lambda.functionName %>",
+  "timeout": <%= lambda.timeout %>,
+  "memorySize": <%= lambda.memorySize %>,
+  "runtime": "nodejs"
+}

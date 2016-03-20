@@ -1,0 +1,17 @@
+# Emacs
+*~
+\#*\#
+
+# Webstorm
+.idea
+
+# Local env
+.env
+
+# npm
+node_modules
+
+# babel
+dist
+lib
+dist.zip
